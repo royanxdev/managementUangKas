@@ -1,8 +1,7 @@
 import {
   ArrowRightLeft,
-  BriefcaseBusiness,
+  ChartNoAxesCombined,
   LayoutDashboard,
-  Users,
   Wallet,
 } from "lucide-react";
 import { NavLink } from "react-router-dom";
@@ -11,7 +10,7 @@ const Navbar = () => {
   const navbarItems = [
     { name: "Dashboard", to: "/", icon: <LayoutDashboard /> },
     { name: "Transaksi", to: "/transaksi", icon: <ArrowRightLeft /> },
-    { name: "Jurusan", to: "/jurusan", icon: <BriefcaseBusiness /> },
+    { name: "Laporan", to: "/laporan", icon: <ChartNoAxesCombined /> },
   ];
 
   return (
